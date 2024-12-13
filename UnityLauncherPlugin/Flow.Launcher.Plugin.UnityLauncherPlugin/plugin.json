@@ -1,0 +1,12 @@
+{
+    "ID": "B215B9C68AED4E84A042CB24EC10C572",
+    "ActionKeyword": "u",
+    "Name": "UnityLauncherPlugin",
+    "Description": "adds an option to launch Unity projects from Flow Launcher",
+    "Author": "Ghost-Miner",
+    "Version": "1.0.0",
+    "Language": "csharp",
+    "Website": "https://github.com/Ghost-Miner/Flow.Launcher.Plugin.UnityLauncherPlugin",
+    "IcoPath": "Images\\icon.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.UnityLauncherPlugin.dll"
+}
