@@ -6,6 +6,7 @@ using System.Threading;
 using Microsoft.Win32;
 using System.IO;
 using System;
+using System.Configuration.Internal;
 
 namespace Flow.Launcher.Plugin.UnityLauncherPlugin
 {
@@ -72,6 +73,8 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
             return keyValue;
         }
 
+        // Use Unity Hub's command line arguments to list all installed versions
+        // https://docs.unity3d.com/hub/manual/HubCLI.html
         private void FindInstalledEditors()
         {
             Console.WriteLine("Looking for installed Unity versions, and projects...");
@@ -83,6 +86,18 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
 
             // Unity hub's response
             List<string> hubResponseList = GetCommandOutput(cmdPath, arguments);
+
+            if (hubResponseList[0].Contains("[ERROR]"))
+            {
+                string errorMessage = "";
+
+                foreach (string hubResponse in hubResponseList)
+                {
+                    errorMessage += hubResponse + "\n";
+                }
+
+                _context.API.ShowMsgError(errorMessage);
+            }
 
             // Split output into version and path. 
             string splitLineWString = " , installed at ";
@@ -149,6 +164,8 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
         #endregion
 
         #region Unity Editor
+        // Use Unity's command line arguments to open project in specified version
+        // https://docs.unity3d.com/6000.0/Documentation/Manual/EditorCommandLineArguments.html
         private void OpenProjectIneditor(string editorPath, string projectPath)
         {
             Process editorProcess = new Process()
@@ -225,6 +242,7 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
             string projectParh = "";
             string editorVersion = "";
             string isFavourite = "";
+            string lastModified = "";
             bool editorVersionInstalled = true;
 
             foreach (string line in breakIntoLines)
@@ -246,7 +264,11 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
                         break;
 
                     case "isFavorite":
-                        isFavourite += currentLineSplit[1];
+                        isFavourite = currentLineSplit[1];
+                        break;
+
+                    case "lastModified":
+                        lastModified = ConvertUnxTimeToHuman(currentLineSplit[1]);
                         break;
                 }
             }
@@ -259,6 +281,7 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
                 path = projectParh,
                 editorVersion = editorVersion,
                 isFavourite = isFavourite,
+                lastModified = lastModified,
                 editorVeInstalled = editorVersionInstalled
             };
             return projInfo;
@@ -266,6 +289,19 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
         #endregion
 
         #region Other
+        private string ConvertUnxTimeToHuman (string timestamp)
+        {
+            long stringToLong = long.Parse(timestamp.Trim());
+
+            DateTimeOffset humanTime = DateTimeOffset.FromUnixTimeMilliseconds(stringToLong).ToLocalTime();
+
+            string[] dateAndTime = humanTime.ToString().Split(" ");
+
+            string humanTimeString = dateAndTime[0] + " " + dateAndTime[1];
+
+            return humanTimeString;
+        }
+
         private List<ProjectInfoModel> GetProjectsMatchingQuery(string query)
         {
             List<ProjectInfoModel> projectsMAtchingquery = new List<ProjectInfoModel>();
@@ -290,22 +326,28 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
             {
                 string editorVersion = project.editorVersion; 
                 bool   editorVersionIsInstalled = DoesEditorVersionExist(project.editorVersion);
+
                 string isProjectStarred = project.isFavourite;
                 string resultIconPath = @"Images\logo.png";
+                string detailSplitter = "  |  ";
 
-                if (!editorVersionIsInstalled)
-                {
-                    projectDetails = editorVersion + ", " + project.path;
-                    resultIconPath = @"Images\warning.png";
-                }
-                else
-                {
-                    projectDetails = "Missing version " + editorVersion + "! " + project.path;
-                }
-
+                // Project is starred
                 if (isProjectStarred.ToLower() == "true")
                 {
                     resultIconPath = @"Images\fav.png";
+                }
+
+                // Editor version is installed
+                if (editorVersionIsInstalled)
+                {
+                    projectDetails = project.path + detailSplitter + "Modified: " + project.lastModified + detailSplitter + "Version: " + editorVersion;
+                }
+                // Editor version is missing
+                else
+                {
+                    resultIconPath = @"Images\warning.png";
+                    projectDetails = "Missing version " + editorVersion + "!" + detailSplitter + project.path + 
+                                      detailSplitter + "Modified: " + project.lastModified;
                 }
 
                 // Editor version is NOT installed
@@ -344,7 +386,6 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
                     });
                 }
             }
-
             return results;
         }
         #endregion
@@ -362,6 +403,7 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
         public string path = "";
         public string editorVersion = "";
         public string isFavourite = "";
+        public string lastModified = "";
         public bool   editorVeInstalled = true;
     }
 }

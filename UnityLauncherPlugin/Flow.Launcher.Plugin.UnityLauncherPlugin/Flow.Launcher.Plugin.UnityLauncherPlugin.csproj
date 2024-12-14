@@ -28,6 +28,7 @@
       <None Remove="Images\fav.png" />
       <None Remove="Images\icon.ico" />
       <None Remove="Images\logo.png" />
+      <None Remove="Images\logo2.png" />
       <None Remove="Images\star.png" />
       <None Remove="Images\warning.png" />
       <None Remove="Images\_star.png" />
@@ -38,6 +39,9 @@
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
         <Content Include="Images\logo.png">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Images\logo2.png">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
         <Content Include="Images\warning.png">

@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\flow launcher plugins\\unitylauncherplugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\plugin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\plugin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\flow launcher plugins\\unitylauncherplugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
@@ -22,24 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "plugin.json",
-              "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\Flow launcher plugins\\UnityLauncherPlugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\plugin.json",
-              "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\plugin.json",
-              "ToolTip": "D:\\Uzivatel\\Admin\\Dokumenty\\Flow launcher plugins\\UnityLauncherPlugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\plugin.json",
-              "RelativeToolTip": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\plugin.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-13T19:05:51.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Flow.Launcher.Plugin.UnityLauncherPlugin",
               "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\Flow launcher plugins\\UnityLauncherPlugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj",
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj",
@@ -56,7 +39,7 @@
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Main.cs",
               "ToolTip": "D:\\Uzivatel\\Admin\\Dokumenty\\Flow launcher plugins\\UnityLauncherPlugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Main.cs",
               "RelativeToolTip": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Main.cs",
-              "ViewState": "AgIAABoBAAAAAAAAAAAIwDMBAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAADsBAAAAAAAAAAAgwF0BAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T17:30:42.702Z",
               "EditorCaption": ""
