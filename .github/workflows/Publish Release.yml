@@ -9,26 +9,31 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 7.0.x
-
-      - name: get version
+      
+      - name: Get Version
         id: version
         uses: notiz-dev/github-action-json-property@release
         with:
-          path: 'Flow.Launcher.Plugin.UnityLauncherPlugin\\plugin.json'
+          path: 'Flow.Launcher.Plugin.UnityLauncherPlugin/plugin.json'
           prop_path: 'Version'
-
-      - run: echo ${{steps.version.outputs.prop}}
-
+      
+      - name: Debug paths
+        run: |
+          echo "Current directory: $PWD"
+          ls -R
+      
       - name: Build
         run: |
-          dotnet publish -c Release -r win-x64 Flow.Launcher.Plugin.UnityLauncherPlugin.csproj
+          dotnet publish -c Release -r win-x64 ./Flow.Launcher.Plugin.UnityLauncherPlugin/Flow.Launcher.Plugin.UnityLauncherPlugin.csproj
           7z a -tzip "Flow.Launcher.Plugin.UnityLauncherPlugin.zip" "./Flow.Launcher.Plugin.UnityLauncherPlugin/bin/x64/Release/*"
-
+      
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
