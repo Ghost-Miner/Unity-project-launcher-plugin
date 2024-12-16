@@ -5,8 +5,8 @@
         <AssemblyName>Flow.Launcher.Plugin.UnityLauncherPlugin</AssemblyName>
         <PackageId>Flow.Launcher.Plugin.UnityLauncherPlugin</PackageId>
         <Authors>Ghost-Miner</Authors>
-        <PackageProjectUrl>https://github.com/Ghost-Miner/Flow.Launcher.Plugin.UnityLauncherPlugin</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/Ghost-Miner/Flow.Launcher.Plugin.UnityLauncherPlugin</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/Ghost-Miner/Unity-project-launcher-plugin</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Ghost-Miner/Unity-project-launcher-plugin</RepositoryUrl>
         <PackageTags>flow-launcher flow-plugin</PackageTags>
         <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
