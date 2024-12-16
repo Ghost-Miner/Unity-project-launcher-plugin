@@ -6,4 +6,4 @@ Adds an option to open Unity projects from Flow Launcher
 
 ### Usage
 
-    u <project name>
+    u <project name> (Supports spaces in names.)
