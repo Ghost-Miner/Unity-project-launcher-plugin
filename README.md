@@ -5,7 +5,7 @@ Launch Unity projects from [Flow launcher](https://github.com/Flow-Launcher/Flow
 
 ### **This plugin supports Unity Hub 3**
 
-![demo](https://github.com/user-attachments/assets/875038b4-6a7a-4fdf-a71d-efd38afe97b7)
+![demo](https://raw.githubusercontent.com/Ghost-Miner/Unity-project-launcher-plugin/refs/heads/main/demo.gif)
 ### Usage
 
     u <project name> 
