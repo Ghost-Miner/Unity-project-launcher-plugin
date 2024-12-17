@@ -10,6 +10,7 @@ Flow.Launcher.Plugin.UnityLauncherPlugin
 
     u <project name> 
 
+### Notable features
 - Supports use of spaces in project names.
 - Shows ★ next to favorite projects.
 - Shows ⚠️ next to project which are in version that isn't installed.
