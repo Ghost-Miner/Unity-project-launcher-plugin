@@ -1,7 +1,7 @@
 Flow.Launcher.Plugin.UnityLauncherPlugin
 ==================
 
-Launch Unity projects from [Flow launcher](https://github.com/Flow-Launcher/Flow.Launcher). (Inspired by [Unity engine](https://github.com/LeLocTai/Flow.Launcher.Plugin.UnityEngine))
+**Launch Unity projects from [Flow launcher](https://github.com/Flow-Launcher/Flow.Launcher). (Inspired by [Unity engine](https://github.com/LeLocTai/Flow.Launcher.Plugin.UnityEngine))**
 
 ### **This plugin supports Unity Hub 3**
 
