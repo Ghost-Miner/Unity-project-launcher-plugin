@@ -36,6 +36,9 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
 
         public async Task LoadHubAmdProjectData ()
         {
+            // Ensure the plugin data folder exists, otherwise we crash.
+            Parts.editor.CreatePluginDataFolder();
+
             // Get Unity Hub's location
             Parts.hub.unityHubInstallPath = Parts.hub.GetUnityHubLocation();
 

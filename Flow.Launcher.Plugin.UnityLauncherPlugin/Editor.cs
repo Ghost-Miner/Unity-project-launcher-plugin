@@ -10,8 +10,25 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
     {
         public List<UnityEditorInfoModel> allEditoresList = new();
 
-        private string editorVersionsCacheFile = Environment.GetEnvironmentVariable("appdata") +
-                                                 @"\FlowLauncher\Plugins\projects launcher\editors.txt";
+        private string editorVerCacheFile = "editors.txt";
+        private string pluginDataFolder   = Environment.GetEnvironmentVariable("appdata") +
+                                                 @"\FlowLauncher\Plugins\UPL Data\";
+
+        public void CreatePluginDataFolder ()
+        {
+            if (!Directory.Exists (pluginDataFolder))
+            {
+                Directory.CreateDirectory (pluginDataFolder);
+
+                string readMeText = "This folder is used by the Unity project launcher plugin" +
+                                    "\nhttps://github.com/Ghost-Miner/Unity-project-launcher-plugin";
+
+                if (!File.Exists (pluginDataFolder + "READ ME.txt"))
+                {
+                    File.WriteAllText(pluginDataFolder + "READ ME.txt", readMeText);
+                }
+            }
+        }
 
         // Use Unity's command line arguments to open project in specified version
         // https://docs.unity3d.com/6000.0/Documentation/Manual/EditorCommandLineArguments.html
@@ -75,13 +92,13 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
 
         public bool VersionCacheFileExists ()
         {
-            bool fileExists = File.Exists(editorVersionsCacheFile);
+            bool fileExists = File.Exists(pluginDataFolder + editorVerCacheFile);
             return fileExists;
         }
 
         public void DeleteCacheFile ()
         {
-            File.Delete(editorVersionsCacheFile);
+            File.Delete(pluginDataFolder + editorVerCacheFile);
         }
 
         public void SaveUnityVersopns()
@@ -93,12 +110,12 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
                 versionsStr.Add(version.version + ";" + version.path);
             }
 
-            File.WriteAllLines(editorVersionsCacheFile, versionsStr.ToArray());
+            File.WriteAllLines(pluginDataFolder + editorVerCacheFile, versionsStr.ToArray());
         }
 
         public void LoadUnityVersions()
         {
-            string[] versionsFileContent = File.ReadLines(editorVersionsCacheFile).ToArray();
+            string[] versionsFileContent = File.ReadLines(pluginDataFolder + editorVerCacheFile).ToArray();
 
             List<UnityEditorInfoModel> unityEditorIntoModels = new();
 
