@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
+using System.IO;
 using System;
 
 namespace Flow.Launcher.Plugin.UnityLauncherPlugin
@@ -7,6 +9,9 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
     public class Editor
     {
         public List<UnityEditorInfoModel> allEditoresList = new();
+
+        private string editorVersionsCacheFile = Environment.GetEnvironmentVariable("appdata") +
+                                                 @"\FlowLauncher\Plugins\projects launcher\editors.txt";
 
         // Use Unity's command line arguments to open project in specified version
         // https://docs.unity3d.com/6000.0/Documentation/Manual/EditorCommandLineArguments.html
@@ -67,5 +72,48 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
 
             return results;
         }
-    }
-}
+
+        public bool VersionCacheFileExists ()
+        {
+            bool fileExists = File.Exists(editorVersionsCacheFile);
+            return fileExists;
+        }
+
+        public void DeleteCacheFile ()
+        {
+            File.Delete(editorVersionsCacheFile);
+        }
+
+        public void SaveUnityVersopns()
+        {
+            List<string> versionsStr = new List<string>();
+
+            foreach (UnityEditorInfoModel version in allEditoresList)
+            {
+                versionsStr.Add(version.version + ";" + version.path);
+            }
+
+            File.WriteAllLines(editorVersionsCacheFile, versionsStr.ToArray());
+        }
+
+        public void LoadUnityVersions()
+        {
+            string[] versionsFileContent = File.ReadLines(editorVersionsCacheFile).ToArray();
+
+            List<UnityEditorInfoModel> unityEditorIntoModels = new();
+
+            foreach (string version in versionsFileContent)
+            {
+                string[] parts = version.ToString().Split(';');
+
+                unityEditorIntoModels.Add(new UnityEditorInfoModel
+                {
+                    version = parts[0],
+                    path = parts[1],
+                });
+            }
+
+            allEditoresList = unityEditorIntoModels;
+        }
+    } // main class end
+} // namespace end

@@ -113,5 +113,5 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
 
             return commandOutput;
         }
-    }
-}
+    } // main class end
+} // namespace end

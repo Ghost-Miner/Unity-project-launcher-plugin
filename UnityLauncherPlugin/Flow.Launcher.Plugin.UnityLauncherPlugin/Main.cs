@@ -8,7 +8,6 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
     {
         private PluginInitContext _context;
 
-        #region Flow launcher
         public async Task InitAsync(PluginInitContext context)
         {
             _context = context;
@@ -22,22 +21,38 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
             {
                 string userQuery = query.Search.ToString().Trim();
 
+                if (userQuery.ToLower() == "/dc")
+                {
+                    Parts.editor.DeleteCacheFile();
+                }    
+
                 Parts.projects.projectsMatchingQuery = Parts.projects.GetProjectsMatchingQuery(userQuery);
 
                 List<Result> results = CreateListOfResults(Parts.projects.projectsMatchingQuery);
 
-                return results;
+                return results; 
             }, cancellationToken );
         }
-        #endregion
 
         public async Task LoadHubAmdProjectData ()
         {
             // Get Unity Hub's location
             Parts.hub.unityHubInstallPath = Parts.hub.GetUnityHubLocation();
 
+            bool versionCacheExists = Parts.editor.VersionCacheFileExists();
+
             // Get location of all installed editor versions
-            Parts.hub.FindInstalledEditors();
+            switch (versionCacheExists)
+            {   
+                case false:
+                    Parts.hub.FindInstalledEditors();
+                    Parts.editor.SaveUnityVersopns();
+                    break;
+
+                case true:
+                    Parts.editor.LoadUnityVersions();
+                    break;
+            }
 
             // Find all projects listed in Unity Hub
             Parts.projects.FindUnityProjects();
@@ -139,5 +154,5 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
             };
             return results;
         }
-    }
-}
+    } // main class end
+} // namespace end

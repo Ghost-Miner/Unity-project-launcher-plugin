@@ -16,5 +16,5 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
 
             return humanTimeString;
         }
-    }
-}
+    } // main class end
+} // namespace end

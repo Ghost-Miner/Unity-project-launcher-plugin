@@ -101,5 +101,5 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
             }
             return projectsMAtchingquery;
         }
-    }
-}
+    } // main class end
+} // namespace end
