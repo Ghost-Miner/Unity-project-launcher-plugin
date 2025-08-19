@@ -10,6 +10,9 @@ Flow.Launcher.Plugin.UnityLauncherPlugin
 
     u <project name> 
 
+
+⚠️ **Use _"u /dc"_ after installing a new Unity version to force the plugin to refresh its list of installed versions. Better solution is planned.** ⚠️
+
 ### Notable features
 - Supports use of spaces in project names.
 - Shows ★ next to favorite projects.
