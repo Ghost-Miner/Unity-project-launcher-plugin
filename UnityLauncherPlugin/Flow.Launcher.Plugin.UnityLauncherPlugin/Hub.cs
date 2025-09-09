@@ -52,8 +52,8 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
             }
 
             // Split output into version and path. 
-            string splitLineWString = " , installed at ";
-            string[] chosenLine;
+            string   splitLineWString = "installed at";
+            string[] chosenLine = { "", "" };
 
             // Add each editor version into allEditoresList
             for (int i = 0; i < hubResponseList.Count; i++)
@@ -65,12 +65,12 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
                 }
 
                 // Split and format each line of output
-                chosenLine = hubResponseList[i].Split(splitLineWString, StringSplitOptions.RemoveEmptyEntries);
+                chosenLine = hubResponseList[i].Split(splitLineWString, StringSplitOptions.RemoveEmptyEntries & StringSplitOptions.TrimEntries);
 
                 UnityEditorInfoModel unityEditorIntoModel = new()
                 {
-                    version = chosenLine[0],
-                    path = chosenLine[1]
+                    version = chosenLine[0].Trim(),
+                    path    = chosenLine[1].Trim()
                 };
 
                 Parts.editor.allEditoresList.Add(unityEditorIntoModel);

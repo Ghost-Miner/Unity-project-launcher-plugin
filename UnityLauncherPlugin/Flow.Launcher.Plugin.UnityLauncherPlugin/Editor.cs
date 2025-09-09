@@ -10,8 +10,7 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
     {
         public List<UnityEditorInfoModel> allEditoresList = new();
 
-        private string editorVersionsCacheFile = Environment.GetEnvironmentVariable("appdata") +
-                                                 @"\FlowLauncher\Plugins\projects launcher\editors.txt";
+        private string editorVersionsCacheFile = Environment.GetEnvironmentVariable("appdata") + @"\FlowLauncher\Plugins\UPL Data\editors.txt";
 
         // Use Unity's command line arguments to open project in specified version
         // https://docs.unity3d.com/6000.0/Documentation/Manual/EditorCommandLineArguments.html
@@ -90,7 +89,7 @@ namespace Flow.Launcher.Plugin.UnityLauncherPlugin
 
             foreach (UnityEditorInfoModel version in allEditoresList)
             {
-                versionsStr.Add(version.version + ";" + version.path);
+                versionsStr.Add(version.version.Trim() + ";" + version.path.Trim());
             }
 
             File.WriteAllLines(editorVersionsCacheFile, versionsStr.ToArray());
