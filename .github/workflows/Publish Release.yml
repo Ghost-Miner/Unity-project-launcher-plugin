@@ -24,7 +24,7 @@ jobs:
         id: version
         uses: notiz-dev/github-action-json-property@release
         with:
-          path: 'Flow.Launcher.Plugin.UnityLauncherPlugin/plugin.json'
+          path: 'UnityLauncherPlugin/Flow.Launcher.Plugin.UnityLauncherPlugin/plugin.json'
           prop_path: 'Version'
       
       - name: Debug paths
