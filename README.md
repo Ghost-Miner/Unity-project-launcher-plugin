@@ -5,7 +5,6 @@ Flow.Launcher.Plugin.UnityLauncherPlugin
 
 ### **This plugin supports Unity Hub 3**
 
-![demo](https://raw.githubusercontent.com/Ghost-Miner/Unity-project-launcher-plugin/refs/heads/main/demo.gif)
 ### Usage
 
     u <project name> 
