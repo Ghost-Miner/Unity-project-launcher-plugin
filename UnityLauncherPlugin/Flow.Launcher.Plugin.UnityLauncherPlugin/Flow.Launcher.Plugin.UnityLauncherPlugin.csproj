@@ -37,19 +37,23 @@
 
     <ItemGroup>
         <Content Include="Images\error.png">
+<<<<<<< HEAD:UnityLauncherPlugin/Flow.Launcher.Plugin.UnityLauncherPlugin/Flow.Launcher.Plugin.UnityLauncherPlugin.csproj
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+=======
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+>>>>>>> main:Flow.Launcher.Plugin.UnityLauncherPlugin/Flow.Launcher.Plugin.UnityLauncherPlugin.csproj
         </Content>
         <Content Include="Images\fav.png">
-          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
         <Content Include="Images\logo.png">
-          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
         <Content Include="Images\logo2.png">
-          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
         <Content Include="Images\warning.png">
-          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
         <Content Include="plugin.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
