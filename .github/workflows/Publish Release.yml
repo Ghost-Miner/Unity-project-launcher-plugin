@@ -34,8 +34,8 @@ jobs:
       
       - name: Build
         run: |
-          dotnet publish -c Release -r win-x64 ./Flow.Launcher.Plugin.UnityLauncherPlugin/Flow.Launcher.Plugin.UnityLauncherPlugin.csproj
-          7z a -tzip "Flow.Launcher.Plugin.UnityLauncherPlugin.zip" "./Flow.Launcher.Plugin.UnityLauncherPlugin/bin/x64/Release/*"
+          dotnet publish -c Release -r win-x64 ./UnityLauncherPlugin/Flow.Launcher.Plugin.UnityLauncherPlugin/Flow.Launcher.Plugin.UnityLauncherPlugin.csproj
+          7z a -tzip "Flow.Launcher.Plugin.UnityLauncherPlugin.zip" "./UnityLauncherPlugin/Flow.Launcher.Plugin.UnityLauncherPlugin/bin/x64/Release/*"
       
       - name: Publish
         uses: softprops/action-gh-release@v1
