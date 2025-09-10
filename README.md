@@ -6,12 +6,14 @@ Flow.Launcher.Plugin.UnityLauncherPlugin
 ### **This plugin supports Unity Hub 3**
 
 ![demo](https://raw.githubusercontent.com/Ghost-Miner/Unity-project-launcher-plugin/refs/heads/main/demo.gif)
----
+
 ### Usage
     u <project name> 
+
 ---
-Use _"u /dc"_ after installing a new Unity version to force the plugin to refresh its list of installed versions. Better solution is planned.** 
----
+### Use _"u /dc"_ after installing a new Unity version to force the plugin to refresh its list of installed versions. 
+
+
 ### Notable features
 - Supports use of spaces in project names.
 - Shows ★ next to favorite projects.
