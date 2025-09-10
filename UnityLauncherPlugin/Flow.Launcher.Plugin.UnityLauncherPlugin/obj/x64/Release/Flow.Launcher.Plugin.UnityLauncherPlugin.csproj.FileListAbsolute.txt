@@ -1,0 +1,44 @@
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\error.png
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\fav.png
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\logo.png
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\logo2.png
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\warning.png
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\plugin.json
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.deps.json
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.dll
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.xml
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Flow.Launcher.Plugin.dll
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\JetBrains.Annotations.dll
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\PropertyChanged.dll
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj.AssemblyReference.cache
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.AssemblyInfoInputs.cache
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.AssemblyInfo.cs
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj.CoreCompileInputs.cache
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Lau.8F26E378.Up2Date
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.dll
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\refint\Flow.Launcher.Plugin.UnityLauncherPlugin.dll
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.xml
+D:\Uzivatel\Admin\Plocha\COPY Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\ref\Flow.Launcher.Plugin.UnityLauncherPlugin.dll
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\error.png
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\fav.png
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\logo.png
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\logo2.png
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Images\warning.png
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\plugin.json
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.deps.json
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.dll
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.xml
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\Flow.Launcher.Plugin.dll
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\JetBrains.Annotations.dll
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\bin\x64\Release\PropertyChanged.dll
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj.AssemblyReference.cache
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.AssemblyInfoInputs.cache
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.AssemblyInfo.cs
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj.CoreCompileInputs.cache
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Lau.8F26E378.Up2Date
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.dll
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\refint\Flow.Launcher.Plugin.UnityLauncherPlugin.dll
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\Flow.Launcher.Plugin.UnityLauncherPlugin.xml
+D:\Uzivatel\Admin\Dokumenty\GitHub\Unity-project-launcher-plugin\UnityLauncherPlugin\Flow.Launcher.Plugin.UnityLauncherPlugin\obj\x64\Release\ref\Flow.Launcher.Plugin.UnityLauncherPlugin.dll
