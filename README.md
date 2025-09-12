@@ -10,12 +10,15 @@ Flow.Launcher.Plugin.UnityLauncherPlugin
 ### Usage
     u <project name> 
 
----
-### Use _"u /dc"_ after installing a new Unity version to force the plugin to refresh its list of installed versions. 
-
-
 ### Notable features
 - Supports use of spaces in project names.
 - Shows ★ next to favorite projects.
 - Shows ⚠️ next to project which are in version that isn't installed.
 - Shows project path, last modified date, and project version under project name.
+---
+
+Notes for current version:
+--
+Listed items are going to be changed or fixed in the next release.
+- Use `u /dc` after installing a new Unity version to refresh plugin's list of installed Unity versions.
+- Do **not** delete plugin's data folder (_Flow plugins folder_/UPL Data) manually. Modifying the UPL Data folder (or its contents) will cause an error when `u /dc` command is used.
