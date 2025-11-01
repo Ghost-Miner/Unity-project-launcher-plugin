@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\plugin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\plugin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\parts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\parts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\parts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\parts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|d:\\uzivatel\\admin\\dokumenty\\github\\unity-project-launcher-plugin\\unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\plugin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79EF982A-CA5F-490B-B117-8BACC466A647}|UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin.csproj|solutionrelative:unitylauncherplugin\\flow.launcher.plugin.unitylauncherplugin\\plugin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Main.cs",
               "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Main.cs",
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Main.cs",
               "ToolTip": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Main.cs",
               "RelativeToolTip": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwFgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T17:30:42.702Z",
               "IsPinned": true,
@@ -64,72 +64,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Editor.cs",
               "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Editor.cs",
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Editor.cs",
               "ToolTip": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Editor.cs",
               "RelativeToolTip": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Editor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T18:00:25.641Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Hub.cs",
               "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Hub.cs",
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Hub.cs",
               "ToolTip": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Hub.cs",
               "RelativeToolTip": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Hub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAewEsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T17:44:07.673Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Models.cs",
               "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Models.cs",
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Models.cs",
               "ToolTip": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Models.cs",
               "RelativeToolTip": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Models.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T18:21:49.521Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Projects.cs",
               "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Projects.cs",
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Projects.cs",
               "ToolTip": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Projects.cs",
               "RelativeToolTip": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Projects.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAgwGkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAMwFoAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T18:04:44.422Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Parts.cs",
               "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Parts.cs",
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Parts.cs",
               "ToolTip": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Parts.cs",
               "RelativeToolTip": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Parts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T19:40:31.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Tools.cs",
               "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Tools.cs",
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\Tools.cs",
@@ -141,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "plugin.json",
               "DocumentMoniker": "D:\\Uzivatel\\Admin\\Dokumenty\\GitHub\\Unity-project-launcher-plugin\\UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\plugin.json",
               "RelativeDocumentMoniker": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\plugin.json",
@@ -149,8 +148,7 @@
               "RelativeToolTip": "UnityLauncherPlugin\\Flow.Launcher.Plugin.UnityLauncherPlugin\\plugin.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-14T15:28:59.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T15:28:59.647Z"
             }
           ]
         },
